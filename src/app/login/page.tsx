@@ -52,7 +52,10 @@ export default function LoginPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-50">
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-4xl space-y-8">
+        <h1 className="text-4xl font-bold text-center text-gray-900">
+          Welcome to Throughcare
+        </h1>
         {step === 1 ? (
           <Card>
             <CardHeader>
